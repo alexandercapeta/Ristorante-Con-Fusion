@@ -1,0 +1,24 @@
+{
+  "name": "ristorantefusion",
+  "version": "1.0.0",
+  "description": "A webpage for Ristorante Fusion",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandercapeta/Ristorante-Con-Fusion.git"
+  },
+  "author": "Alexander Rivera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandercapeta/Ristorante-Con-Fusion/issues"
+  },
+  "homepage": "https://github.com/alexandercapeta/Ristorante-Con-Fusion#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
