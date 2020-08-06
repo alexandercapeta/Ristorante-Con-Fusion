@@ -37,3 +37,8 @@ body {
 .navbar-dark {
   background-color: #512DA8;
 }
+
+#res-button {
+  width: 60%;
+  margin-top: 10%;
+}
