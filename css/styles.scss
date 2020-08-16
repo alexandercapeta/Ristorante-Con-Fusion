@@ -54,6 +54,42 @@ body {
   padding: 10px;
 }
 
+#loginFormHeader {
+  background: $background-dark;
+}
+
+#loginFormX {
+  background: $background-light;
+  color: #ddd;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 1%;
+  padding-top: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+}
+
+#loginFormBody {
+  background: $background-light;
+}
+
+#loginTitle {
+  color: #ffffff;
+}
+
+#reservationTitle {
+  background: $background-dark;
+}
+
+#reservationT {
+  color: #ffffff;
+}
+
+#reservationFormBody {
+  background: $background-light;
+}
+
 .carousel {
   background: $background-dark;
 
@@ -66,6 +102,15 @@ body {
       min-height: 300px;
     }
   }
+}
+
+.res-button {
+  margin-top: 3%;
+  margin-left: 20%;
+}
+
+#reservationButton {
+  margin-left: 1%;
 }
 
 #carouselButton {
