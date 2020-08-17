@@ -9,7 +9,10 @@
     "lite": "lite-server",
     "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
-    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
+    "clean": "rimraf dist",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/font/* dist/fonts",
+    "imagemin": "imagemin img/* --out-dir='dist/img'",
   },
   "repository": {
     "type": "git",
@@ -25,7 +28,8 @@
     "lite-server": "^2.5.4",
     "node-sass": "^4.7.2",
     "onchange": "^3.3.0",
-    "parallelshell": "^3.0.1"
+    "parallelshell": "^3.0.1",
+    "rimraf": "^2.6.2",
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
